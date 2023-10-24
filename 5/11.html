@@ -1,0 +1,104 @@
+<!-- Creamos formularios!-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+</head>
+<body>
+
+    <form action="#" method="get">
+        <h1>Rellena tu CV</h1>
+        <div>
+            <p>
+                <label for="nombre">Nombre</label><br/>
+                <input type="text" id="nombre" name="nombre">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="apellidos">Apellidos</label><br/>
+                <input type="text" id="apellidos" name="apellidos">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="password">Contraseña</label><br/>
+                <input type="password" id="password" name="password">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="dni">DNI</label><br/>
+                <input type="text" id="dni" name="dni">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="foto">Incluir mi foto</label><br/>
+                <input type="file" id="foto" name="foto">
+            </p>
+        </div>
+
+        <button>Guardar cambios</button>
+        <input type="reset" value="Borrar">
+    </form>
+
+    <hr/>
+    
+    <form action="#" method="get">
+
+        <h1>Formulario estructurado</h1>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <p>
+                    <label for="nombre">Nombre</label><br/>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="apellidos">Apellidos</label><br/>
+                    <input type="text" id="apellidos" name="apellidos">
+                </p>
+            </div>
+    
+            <div>
+                <p>
+                    <label for="dni">DNI</label><br/>
+                    <input type="text" id="dni" name="dni">
+                </p>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Datos de conexión</legend>
+            <div>
+                <p>
+                    <label for="nombre">Nombre</label><br/>
+                    <input type="text" id="nombre" name="nombre">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="password">Contraseña</label><br/>
+                    <input type="password" id="password" name="password">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="repit-password">Repite contraseña</label><br/>
+                    <input type="password" id="repit-password" name="repit-password">
+                </p>
+            </div>
+
+        </fieldset>
+
+
+    </form>
+    
+    
+</body>
+</html>
