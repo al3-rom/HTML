@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12.2</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <p>
+                <label for="provincia">Provincia</label><br/>
+                <select name="provincia" id="provincia">
+                    <option value="-">-selecciona-</option>
+                    <option value="A">Almeria</option>
+                    <option value="G">Granada</option>
+                    <option value="S">Sevilla</option>
+                    <option value="H">Huelva</option>
+                    <option value="J">Jaen</option>
+                    <option value="C">Cadiz</option>
+                    <option value="M">Malaga</option>
+                    <option value="C">Cordoba</option>
+                </select>
+            </p>
+
+            <p>
+            Fecha de nacimiento<br/>
+            <input type="text" id="dia" name="date" size="2">de
+            <select name="mes" id="mes">
+                <option value="">-</option>
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            de
+            <input type="text" name="year" size="4">
+            </p>
+
+            <p>
+                <label for="temas">Temas de interes</label><br/>
+                <select name="temas" id="temas" size="5" multiple>
+                    <option value="">Administracion de bases de datos</option>
+                    <option value="">Analisis y programacion</option>
+                    <option value="">Arquitectura</option>
+                    <option value="">Calidad</option>
+                    <option value="">ERP</option>
+                </select>
+
+            </p>
+
+            <p>
+                <button>Enviar</button>
+            </p>
+
+
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
